@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width:100%
+}
+main{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+.up{
+    height: 20%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.down{
+    height: 80%;
+    padding: 40px;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto; 
+}
+input{
+    height: 55px;
+     width: 300px;
+     font-size: 1.5rem;
+     padding: 2px;
+     text-align: center;
+}
+.list {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+li {
+    background: wheat;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+
+    /* DELETE THIS (ye number hata raha tha) */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+
+    list-style-position: outside;
+    position: relative; 
+}
+
+li button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+ 
+
+
+
+.adbtn{
+    height: 55px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+}
+
+
