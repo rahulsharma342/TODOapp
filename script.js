@@ -15,4 +15,5 @@ btn1.addEventListener("click",()=>{
     btn.addEventListener("click",()=>{
         ul.removeChild(li);
     })
+    input.value = "";
 })
